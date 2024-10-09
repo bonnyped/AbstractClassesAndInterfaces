@@ -9,11 +9,11 @@ public class SpamAnalyzer extends KeywordAnalyzer {
 
     @Override
     protected String[] getKeywords(){
-        return  null;
+        return keywords;
     }
 
     @Override
-    protected TextAnalyzer.Label getLabel() {
-        return null;
+    protected Label getLabel() {
+        return Label.SPAM;
     }
 }

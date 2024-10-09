@@ -1,6 +1,6 @@
 package src;
 
-public interface TextAnalyzer {
+interface TextAnalyzer {
     Label processText(String text);
 
     enum Label {
